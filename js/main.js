@@ -21,15 +21,15 @@ if (hamburger && navLinks) {
 
 // ====== CRUSTMC LINKS (EDIT HERE) ======
 const LINKS = {
-  discord: "https://discord.gg/AemPrX7wHe",
-  youtube: "https://youtube.com/@IcoXNeon",
-  instagram: "https://instagram.com/crustmcdotfun",
+  discord: "https://discord.gg/9XrFMewKqh",
+  youtube: "https://youtube.com/@itsanuragzz",
+  instagram: "https://instagram.com/disastermc",
   store: "store.html"
 };
 // ======================================
 
-const IP = "play.crustmc.fun";
-const PORT = "19120";
+const IP = "disastermc.qzz.io";
+const PORT = "19162";
 
 // Social buttons auto
 document.querySelectorAll("[data-social]").forEach((btn) => {
