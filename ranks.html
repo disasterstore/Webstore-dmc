@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrustMC Network | Ranks</title>
+
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg"></div>
+  <div class="noise"></div>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="CrustMC Logo" class="brand-logo"/>
+        <div class="brand-text">
+          <span class="brand-title">CrustMC</span>
+          <span class="brand-sub">Network</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#servers">Servers</a>
+        <a href="ranks.html" class="active">Ranks</a>
+        <a href="features.html">Features</a>
+        <a href="rules.html">Rules</a>
+        <a href="staff.html">Staff</a>
+        <a href="index.html#join">Join</a>
+      </nav>
+
+      <div class="nav-right">
+        <button class="btn btn-primary" id="copyIpBtn">Copy IP</button>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page -->
+  <section class="page">
+    <div class="container">
+      <div class="page-head reveal">
+        <h1>CrustMC Ranks</h1>
+        <p>
+          Support the network and unlock premium perks, cosmetics, and commands.
+        </p>
+      </div>
+
+      <div class="grid-5 ranks-grid reveal">
+        <div class="rank">
+          <div class="rank-name">Prime Rank</div>
+          <div class="rank-price">₹60</div>
+          <div class="rank-line"></div>
+          <ul>
+            <li>✔ Basic perks</li>
+            <li>✔ Small cosmetics</li>
+            <li>✔ Support the server</li>
+          </ul>
+        </div>
+
+        <div class="rank">
+          <div class="rank-name">Venom Rank</div>
+          <div class="rank-price">₹150</div>
+          <div class="rank-line"></div>
+          <ul>
+            <li>✔ Better kits</li>
+            <li>✔ Extra homes</li>
+            <li>✔ More claims</li>
+          </ul>
+        </div>
+
+        <div class="rank">
+          <div class="rank-name">Hyper Rank</div>
+          <div class="rank-price">₹250</div>
+          <div class="rank-line"></div>
+          <ul>
+            <li>✔ Stronger perks</li>
+            <li>✔ Premium commands</li>
+            <li>✔ Special cosmetics</li>
+          </ul>
+        </div>
+
+        <div class="rank">
+          <div class="rank-name">Dark Rank</div>
+          <div class="rank-price">₹300</div>
+          <div class="rank-line"></div>
+          <ul>
+            <li>✔ High-tier kits</li>
+            <li>✔ More rewards</li>
+            <li>✔ VIP effects</li>
+          </ul>
+        </div>
+
+        <div class="rank best">
+          <div class="rank-badge">Top</div>
+          <div class="rank-name">Hero Rank</div>
+          <div class="rank-price">₹350</div>
+          <div class="rank-line"></div>
+          <ul>
+            <li>✔ Best perks</li>
+            <li>✔ Maximum homes</li>
+            <li>✔ Ultimate cosmetics</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="center reveal" style="margin-top:18px;">
+        <a class="btn btn-primary big" href="index.html#join">Join Discord</a>
+        <a class="btn btn-ghost big" href="index.html">Back Home</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="toast" id="toast">Copied!</div>
+
+  <script src="js/reveal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

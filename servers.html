@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrustMC Network | Servers</title>
+
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg"></div>
+  <div class="noise"></div>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="CrustMC Logo" class="brand-logo"/>
+        <div class="brand-text">
+          <span class="brand-title">CrustMC</span>
+          <span class="brand-sub">Network</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="servers.html" class="active">Servers</a>
+        <a href="ranks.html">Ranks</a>
+        <a href="features.html">Features</a>
+        <a href="store.html">Store</a>
+        <a href="rules.html">Rules</a>
+        <a href="staff.html">Staff</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <button class="btn btn-primary" id="copyIpBtn">Copy IP</button>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page">
+    <div class="container">
+      <div class="page-head reveal">
+        <h1>CrustMC Servers</h1>
+        <p>
+          Same network, different experiences. Pick your gameplay style.
+        </p>
+      </div>
+
+      <div class="grid-3 reveal">
+        <div class="card">
+          <div class="card-top">
+            <div class="card-title">Lifesteal Survival</div>
+            <div class="tag red">PvP</div>
+          </div>
+          <p class="card-desc">
+            Kill players to steal hearts. Die and lose hearts. Competitive and intense survival.
+          </p>
+          <div class="card-meta">
+            <span>⚔️ Arena</span>
+            <span>💀 Hearts</span>
+            <span>🔥 Ranked PvP</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <div class="card-title">Classic Survival</div>
+            <div class="tag green">Chill</div>
+          </div>
+          <p class="card-desc">
+            Economy + claims + smooth survival. Perfect for builders and grinders.
+          </p>
+          <div class="card-meta">
+            <span>🏠 Claims</span>
+            <span>💰 Shop</span>
+            <span>🌿 Peace</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <div class="card-title">PvP Arena</div>
+            <div class="tag blue">Events</div>
+          </div>
+          <p class="card-desc">
+            KitPvP, duels, tournaments, and weekly events with rewards.
+          </p>
+          <div class="card-meta">
+            <span>🏆 Tournaments</span>
+            <span>⚡ Duels</span>
+            <span>🎁 Rewards</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="join-card reveal" style="margin-top:18px;">
+        <div class="join-left">
+          <h2>Join Now</h2>
+          <p>
+            IP copy kar, server join kar, aur Discord me aake community ka part ban.
+          </p>
+
+          <div class="join-actions">
+            <button class="btn btn-primary big" id="copyIpBtn2">Copy IP</button>
+            <a class="btn btn-ghost big" data-social="discord" target="_blank">Join Discord</a>
+          </div>
+        </div>
+
+        <div class="join-right">
+          <div class="join-mini">
+            <div class="mini">
+              <div class="mini-top">IP</div>
+              <div class="mini-big">play.crustmc.fun</div>
+            </div>
+            <div class="mini">
+              <div class="mini-top">PORT</div>
+              <div class="mini-big">19120</div>
+            </div>
+            <div class="mini">
+              <div class="mini-top">Mode</div>
+              <div class="mini-big">Survival</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-left">
+          <div class="footer-title">CrustMC Network</div>
+          <div class="footer-sub">Survival • Lifesteal • Classic</div>
+        </div>
+
+        <div class="footer-right">
+          <a href="index.html">Home</a>
+          <a href="store.html">Store</a>
+          <a href="rules.html">Rules</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <div class="toast" id="toast">Copied!</div>
+
+  <script src="js/reveal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

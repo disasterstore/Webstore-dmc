@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrustMC Network | Contact</title>
+
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg"></div>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="CrustMC Logo" class="brand-logo"/>
+        <div class="brand-text">
+          <span class="brand-title">CrustMC</span>
+          <span class="brand-sub">Network</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="servers.html">Servers</a>
+        <a href="ranks.html">Ranks</a>
+        <a href="features.html">Features</a>
+        <a href="store.html">Store</a>
+        <a href="rules.html">Rules</a>
+        <a href="staff.html">Staff</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <button class="btn btn-primary" id="copyIpBtn">Copy IP</button>
+        <button class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page">
+    <div class="container">
+      <div class="page-head reveal">
+        <h1>Contact & Socials</h1>
+        <p>
+          Need help? Join Discord. Want updates? Follow socials.
+        </p>
+      </div>
+
+      <div class="grid-2 reveal">
+        <div class="rules-card">
+          <h2>📌 Support</h2>
+          <div class="info">
+            <div><b>Discord Support:</b> Use #support channel</div>
+            <div><b>Rank Issues:</b> Store → Buy via Discord</div>
+            <div><b>Reports:</b> Contact Staff on Discord</div>
+            <div><b>Server IP:</b> play.crustmc.fun</div>
+            <div><b>PORT:</b> 19120</div>
+          </div>
+
+          <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap;">
+            <a class="btn btn-primary big" data-social="discord" target="_blank">Join Discord</a>
+            <button class="btn btn-ghost big" id="copyIpBtn2">Copy IP</button>
+          </div>
+        </div>
+
+        <div class="rules-card">
+          <h2>🌐 Social Links</h2>
+          <p style="color: rgba(255,255,255,.7); line-height:1.6;">
+            Follow CrustMC for updates, giveaways, and new features.
+          </p>
+
+          <div style="margin-top:14px;" class="socials">
+            <a class="social-btn" data-social="discord" target="_blank" title="Discord">
+              <img src="assets/discord.png" alt="Discord"/>
+            </a>
+
+            <a class="social-btn" data-social="youtube" target="_blank" title="YouTube">
+              <img src="assets/youtube.png" alt="YouTube"/>
+            </a>
+
+            <a class="social-btn" data-social="instagram" target="_blank" title="Instagram">
+              <img src="assets/instagram.png" alt="Instagram"/>
+            </a>
+          </div>
+
+          <div style="margin-top:14px;">
+            <div class="ip-hint">
+              Tip: Icons assets folder me rakhna (discord.png, youtube.png, instagram.png)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-left">
+          <div class="footer-title">CrustMC Network</div>
+          <div class="footer-sub">Discord • YouTube • Instagram</div>
+        </div>
+
+        <div class="footer-right">
+          <a href="index.html">Home</a>
+          <a data-social="youtube" target="_blank">YouTube</a>
+          <a data-social="discord" target="_blank">Discord</a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <div class="toast" id="toast">Copied!</div>
+
+  <script src="js/reveal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
